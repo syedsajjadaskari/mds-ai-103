@@ -1,0 +1,46 @@
+# Environment variables and API keys
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*apikey*
+*api_key*
+*API_KEY*
+*secret*
+*SECRET*
+*credentials*
+*token*
+*TOKEN*
+
+# Virtual Environment
+env/
+venv/
+.venv
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
